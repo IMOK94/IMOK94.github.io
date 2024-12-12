@@ -1,5 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'zh-cn'
+languageCode = 'zh-CN'
+languageName = '简体中文'
 title = '欢迎来到 IMOK94 博客'
 [params]
 	subtitle = 'The private Blog on Github'
