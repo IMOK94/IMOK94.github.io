@@ -45,5 +45,3 @@ str4='''
 字符串
 '''
 ```
-
-Visited the [IMOK94](https://IMOK94.github.io) website!
