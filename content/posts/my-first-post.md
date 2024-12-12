@@ -1,10 +1,49 @@
 +++
 date = '2024-12-11T21:17:01+08:00'
 draft = false
-title = 'My First Post'
+title = 'My First Post-TOML文件格式'
 
 +++
 
-This is **bold** text, and this is *emphasized* text.
+### 字符串
+
+共有四种方式来表示字符串：基本字符串、多行基本字符串、字面量和多行字面量。
+
+**基本字符串**由`"`包裹。可以使用Unicode字符串，除了需要转义的：引号，反斜杠，制表符等。
+
+eg:
+
+```toml
+str1="字符串str，双引号\"，制表符\t，换行符\n。"
+```
+
+**多行基本字符串**由`"""`包裹，允许多行。
+
+eg:
+
+```toml
+str2="""
+多行
+字符
+"""
+```
+
+**字面量字符串**由`'`包裹。没有转义。
+
+eg:
+
+```toml
+winpath='C:\Users\templates'
+```
+
+**多行字面量字符串**由`'''`包裹，允许换行。类似于字面量字符串，无论任何转义都不存在。
+
+```toml
+str4='''
+多行
+字面量
+字符串
+'''
+```
 
 Visited the [IMOK94](https://IMOK94.github.io) website!

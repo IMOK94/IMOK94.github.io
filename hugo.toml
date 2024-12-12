@@ -1,4 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '欢迎来到 IMOK94 博客'
+[params]
+	subtitle = 'The private Blog on Github'
 theme = 'ananke'
